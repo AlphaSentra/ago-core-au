@@ -1,3 +1,58 @@
 2025-11-14 14:27:14,360 - INFO - [INFO] - MongoDB connection closed
 2025-11-14 14:35:00,746 - INFO - [INFO] - Starting continuous batch processing...
 2025-11-14 14:35:03,885 - INFO - [INFO] - Processing 10 tickers
+2025-11-14 14:45:42,578 - INFO - [INFO] - Starting comprehensive dataset reset
+2025-11-14 14:45:42,579 - INFO - [INFO] - Starting reset of document_generated field in tickers collection
+2025-11-14 14:48:38,252 - INFO - [INFO] - Starting continuous batch processing...
+2025-11-14 14:48:41,428 - INFO - [INFO] - Processing 10 tickers
+2025-11-14 14:48:56,787 - WARNING - [ERR-0001] - [681ec206] Attempting to extract JSON from text (length: 155 chars) | From: helpers.py:extract_json_from_text()
+2025-11-14 14:48:56,789 - ERROR - [ERR-0001] - [4279c988] Failed to extract any valid JSON from text | From: helpers.py:extract_json_from_text()
+2025-11-14 14:48:56,789 - ERROR - [ERR-0001] - [02e4281a] Text preview: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}... | From: helpers.py:extract_json_from_text()
+2025-11-14 14:48:56,789 - ERROR - [ERR-0103] - [c15b6800] Error parsing AI weights response as JSON | Exception: JSONDecodeError: Expecting value: line 1 column 1 (char 0) | From: helpers.py:get_ai_weights()
+2025-11-14 14:48:56,789 - WARNING - [WARN-0002] - [e7cc94f0] Raw weights response: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}... | From: helpers.py:get_ai_weights()
+2025-11-14 14:48:56,822 - ERROR - [ERR-0203] - [c032566c] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 14:49:01,743 - ERROR - [ERR-0203] - [77ff5c8d] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 14:49:02,247 - ERROR - [ERR-0203] - [b39f6608] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 14:49:06,897 - ERROR - [ERR-0203] - [fce6b5de] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 14:49:07,241 - ERROR - [ERR-0203] - [9bee018f] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 14:49:07,470 - ERROR - [ERR-0104] - [eb1ed4c6] Error getting AI weights | Exception: TypeError: the JSON object must be str, bytes or bytearray, not NoneType | From: helpers.py:get_ai_weights()
+2025-11-14 14:49:07,498 - ERROR - [ERR-0203] - [c609259a] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 14:49:08,894 - ERROR - [ERR-0104] - [f3bfd229] Error getting AI weights | Exception: TypeError: the JSON object must be str, bytes or bytearray, not NoneType | From: helpers.py:get_ai_weights()
+2025-11-14 14:49:08,924 - ERROR - [ERR-0203] - [f9f9fa0d] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 14:49:10,419 - ERROR - [ERR-0203] - [f12d88a8] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 14:49:11,975 - ERROR - [ERR-0001] - [ae7862cb] Error processing ticker NAB.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 14:49:12,463 - INFO - [INFO] - Updated ticker NAB.AX fail_count: 0 -> 1
+2025-11-14 14:49:12,729 - ERROR - [ERR-0203] - [683264d7] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 14:49:13,046 - ERROR - [ERR-0001] - [55f86d80] Error processing ticker BVS.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 14:49:13,440 - ERROR - [ERR-0001] - [8324d026] Failed to parse AI response: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}} | Exception: JSONDecodeError: Expecting value: line 1 column 1 (char 0) | From: analysis.py:run_analysis()
+2025-11-14 14:49:13,441 - ERROR - [ERR-0001] - [54f3046d] Error processing ticker DVP.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 14:49:13,540 - INFO - [INFO] - Updated ticker BVS.AX fail_count: 0 -> 1
+2025-11-14 14:49:13,942 - INFO - [INFO] - Updated ticker DVP.AX fail_count: 0 -> 1
+2025-11-14 14:49:16,002 - WARNING - [ERR-0001] - [9afcbee2] Attempting to extract JSON from text (length: 3059 chars) | From: helpers.py:extract_json_from_text()
+2025-11-14 14:49:16,003 - ERROR - [ERR-0104] - [bbeb8406] Error getting AI weights | Exception: TypeError: log_info() takes 1 positional argument but 2 were given | From: helpers.py:get_ai_weights()
+2025-11-14 14:49:16,032 - ERROR - [ERR-0203] - [5db713e1] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 14:49:24,979 - ERROR - [ERR-0001] - [29175bf1] Error processing ticker RHC.AX | Exception: TypeError: expected string or bytes-like object, got 'NoneType' | From: batch_run.py:process_ticker()
+2025-11-14 14:49:25,466 - INFO - [INFO] - Updated ticker RHC.AX fail_count: 0 -> 1
+2025-11-14 14:49:26,266 - ERROR - [ERR-0001] - [b5571dd0] Error processing ticker SFR.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 14:49:26,759 - ERROR - [ERR-0001] - [520a94eb] Failed to parse AI response: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}} | Exception: JSONDecodeError: Expecting value: line 1 column 1 (char 0) | From: analysis.py:run_analysis()
+2025-11-14 14:49:26,760 - ERROR - [ERR-0001] - [012fe852] Error processing ticker MAQ.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 14:49:26,760 - INFO - [INFO] - Updated ticker SFR.AX fail_count: 0 -> 1
+2025-11-14 14:49:26,806 - ERROR - [ERR-0001] - [20d995a7] Error processing ticker NEM.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 14:49:27,253 - INFO - [INFO] - Updated ticker MAQ.AX fail_count: 0 -> 1
+2025-11-14 14:49:27,291 - INFO - [INFO] - Updated ticker NEM.AX fail_count: 0 -> 1
+2025-11-14 14:49:27,619 - ERROR - [ERR-0001] - [41008c81] Error processing ticker NWL.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 14:49:28,119 - INFO - [INFO] - Updated ticker NWL.AX fail_count: 0 -> 1
+2025-11-14 14:49:30,744 - ERROR - [ERR-0001] - [4278c0ec] Error processing ticker ZIP.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 14:49:31,212 - ERROR - [ERR-0001] - [cbe6d5f6] Error processing ticker BGL.AX | Exception: TypeError: expected string or bytes-like object, got 'NoneType' | From: batch_run.py:process_ticker()
+2025-11-14 14:49:31,231 - INFO - [INFO] - Updated ticker ZIP.AX fail_count: 0 -> 1
+2025-11-14 14:49:31,704 - INFO - [INFO] - Updated ticker BGL.AX fail_count: 0 -> 1
+2025-11-14 14:49:32,084 - INFO - [INFO] - Processing 4 pipelines...
+2025-11-14 14:49:32,846 - INFO - [INFO] - Number of pending ticker to process: 307
+2025-11-14 14:49:33,362 - INFO - [INFO] - Number of pending ticker to process: 307
+2025-11-14 14:49:33,362 - INFO - [INFO] - Skipping trending analysis - insights pending generation
+2025-11-14 14:49:33,872 - INFO - [INFO] - Number of pending ticker to process: 307
+2025-11-14 14:49:33,872 - INFO - [INFO] - Skipping trending analysis - insights pending generation
+2025-11-14 14:49:34,365 - INFO - [INFO] - Number of pending ticker to process: 307
+2025-11-14 14:49:34,366 - INFO - [INFO] - Skipping trending analysis - insights pending generation
+2025-11-14 14:49:34,937 - INFO - [INFO] - Batch cycle completed. Processed: 10 tickers, 0 pipelines. Remaining: 307 tickers, 4 pipelines
+2025-11-14 14:49:35,035 - INFO - [INFO] - Memory before cleanup: 6424.3 KB
