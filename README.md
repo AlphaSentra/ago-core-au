@@ -1,5 +1,6 @@
 # AlphaSentra
 Australia — ASX 300 — Data collection — processing.
+Important: Provide the GEMINI_API_KEY API key without quote '' Github Actions Rep.Secret.
 
 ## Install Packages
 To run this script, you need to make sure of the requirements:
