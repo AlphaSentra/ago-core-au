@@ -2,8 +2,8 @@ name: Data Collection and Processing
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # 3am UTC daily
-    - cron: '30 8 * * *'  # 8:30am UTC daily
+    - cron: '0 8 * * *'  # 8am UTC daily
+    - cron: '0 14 * * *'  # 14:30 UTC daily
   workflow_dispatch:
 
 jobs:
