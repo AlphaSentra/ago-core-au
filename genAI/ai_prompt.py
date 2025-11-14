@@ -78,6 +78,7 @@ def get_gen_ai_response(tickers, model_strategy, prompt=None, gemini_model=None,
     str: The AI model's response text
     """
     # If no model is specified, use the default model from environment variables
+
     if gemini_model is None:
         gemini_model = os.getenv("GEMINI_DEFAULT", "gemini-2.5-pro")
     
