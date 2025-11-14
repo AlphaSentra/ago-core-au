@@ -1,6 +1,10 @@
 # AlphaSentra
 Australia — ASX 300 — Data collection — processing.
 
+## Database connection
+In MongoDB Atlas: Make sure the IP Access list includes where the script is running from.
+For testing — Access all IP address: 0.0.0.0/0
+
 ## Install Packages
 To run this script, you need to make sure of the requirements:
 
