@@ -113,7 +113,7 @@ def decrypt_string(encrypted_text, secret_key=None):
         return base64.urlsafe_b64decode(encrypted_text.encode()).decode()
     
     except Exception as e:
-        log_error("Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted", "DECRYPTION", e)
+        log_error(f"Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted: secret: {secret_key} | content: {encrypted_text}", "DECRYPTION", e)
         return None
 
 

@@ -389,7 +389,8 @@ def get_growth_profitability_chart(ticker):
         stock = yf.Ticker(ticker)
         
         # Get quarterly financial statements and transpose
-        financials = stock.quarterly_financials.T
+        #financials = stock.quarterly_financials.T
+        financials = stock.financials.T
         if financials.empty:
             logger.error(f"No financial data available for {ticker}")
             return {}
@@ -492,8 +493,10 @@ def financial_health_chart(ticker):
 
         # --- Extract Data from Financial Statements ---
         # Get and transpose quarterly statements to have dates as index
-        balance_sheet = stock.quarterly_balance_sheet.T
-        cash_flow = stock.quarterly_cashflow.T
+        #balance_sheet = stock.quarterly_balance_sheet.T
+        #cash_flow = stock.quarterly_cashflow.T
+        balance_sheet = stock.balancesheet.T
+        cash_flow = stock.cashflow.T
         
         if balance_sheet.empty or cash_flow.empty:
             logger.error(f"No financial data available for {ticker}")

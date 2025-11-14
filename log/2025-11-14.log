@@ -56,3 +56,115 @@
 2025-11-14 14:49:34,366 - INFO - [INFO] - Skipping trending analysis - insights pending generation
 2025-11-14 14:49:34,937 - INFO - [INFO] - Batch cycle completed. Processed: 10 tickers, 0 pipelines. Remaining: 307 tickers, 4 pipelines
 2025-11-14 14:49:35,035 - INFO - [INFO] - Memory before cleanup: 6424.3 KB
+2025-11-14 15:04:28,871 - WARNING - [ERR-0001] - [437ffa33] Attempting to extract JSON from text (length: 36836 chars) | From: helpers.py:extract_json_from_text()
+2025-11-14 15:04:28,873 - WARNING - [ERR-0001] - [ca29fc80] Successfully extracted JSON using end object pattern | From: helpers.py:extract_json_from_text()
+2025-11-14 15:04:28,873 - INFO - [INFO] - Successfully parsed AI response as JSON
+2025-11-14 15:05:05,170 - INFO - [INFO] - Time step t=1 starting
+2025-11-14 15:05:05,172 - INFO - [INFO] - Market state - Net Order: -80, Sentiment: -0.4361, Price Change: -39.9372, New Price: 60.0628
+2025-11-14 15:05:06,185 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['SPY']
+2025-11-14 15:09:09,696 - INFO - [INFO] - Starting continuous batch processing...
+2025-11-14 15:09:12,599 - INFO - [INFO] - Processing 10 tickers
+2025-11-14 15:09:17,102 - ERROR - [ERR-0203] - [5af390f7] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:09:17,109 - ERROR - [ERR-0203] - [d0b1be83] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:09:17,256 - ERROR - [ERR-0203] - [d73e9c25] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:09:17,259 - ERROR - [ERR-0203] - [aee15ebd] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:09:17,274 - ERROR - [ERR-0203] - [af36eecf] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:09:17,337 - ERROR - [ERR-0203] - [a1aad89a] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:09:17,458 - ERROR - [ERR-0203] - [de205b6a] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:09:17,489 - ERROR - [ERR-0203] - [ba372506] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:09:17,496 - ERROR - [ERR-0203] - [33c33950] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:09:17,559 - ERROR - [ERR-0203] - [441640aa] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:09:24,506 - ERROR - [ERR-0001] - [281daa9a] Failed to parse AI response: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}} | Exception: JSONDecodeError: Expecting value: line 1 column 1 (char 0) | From: analysis.py:run_analysis()
+2025-11-14 15:09:24,507 - ERROR - [ERR-0001] - [a4afde42] Error processing ticker PPT.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 15:09:25,053 - INFO - [INFO] - Updated ticker PPT.AX fail_count: 0 -> 1
+2025-11-14 15:09:25,095 - ERROR - [ERR-0001] - [3fca2b60] Failed to parse AI response: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}} | Exception: JSONDecodeError: Expecting value: line 1 column 1 (char 0) | From: analysis.py:run_analysis()
+2025-11-14 15:09:25,095 - ERROR - [ERR-0001] - [78cbaaeb] Error processing ticker STO.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 15:09:25,579 - INFO - [INFO] - Updated ticker STO.AX fail_count: 0 -> 1
+2025-11-14 15:09:31,893 - ERROR - [ERR-0001] - [fac483c5] Error processing ticker MIN.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 15:09:32,344 - ERROR - [ERR-0001] - [8447c258] Error processing ticker PME.AX | Exception: TypeError: expected string or bytes-like object, got 'NoneType' | From: batch_run.py:process_ticker()
+2025-11-14 15:09:32,384 - INFO - [INFO] - Updated ticker MIN.AX fail_count: 0 -> 1
+2025-11-14 15:09:32,561 - ERROR - [ERR-0001] - [3fdeb7b1] Error processing ticker SGM.AX | Exception: TypeError: expected string or bytes-like object, got 'NoneType' | From: batch_run.py:process_ticker()
+2025-11-14 15:09:32,829 - INFO - [INFO] - Updated ticker PME.AX fail_count: 1 -> 2
+2025-11-14 15:09:33,044 - INFO - [INFO] - Updated ticker SGM.AX fail_count: 0 -> 1
+2025-11-14 15:09:33,090 - ERROR - [ERR-0001] - [9dd67ca2] Error processing ticker EBO.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 15:09:33,570 - INFO - [INFO] - Updated ticker EBO.AX fail_count: 0 -> 1
+2025-11-14 15:09:34,586 - ERROR - [ERR-0001] - [b63c9221] Error processing ticker GNE.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 15:09:34,695 - ERROR - [ERR-0001] - [b687633c] Failed to parse AI response: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}} | Exception: JSONDecodeError: Expecting value: line 1 column 1 (char 0) | From: analysis.py:run_analysis()
+2025-11-14 15:09:34,696 - ERROR - [ERR-0001] - [802f9dd9] Error processing ticker RIO.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 15:09:35,077 - INFO - [INFO] - Updated ticker GNE.AX fail_count: 1 -> 2
+2025-11-14 15:09:35,189 - INFO - [INFO] - Updated ticker RIO.AX fail_count: 0 -> 1
+2025-11-14 15:09:35,733 - ERROR - [ERR-0001] - [15181417] Error processing ticker BWP.AX | Exception: AttributeError: 'NoneType' object has no attribute 'format' | From: batch_run.py:process_ticker()
+2025-11-14 15:09:35,833 - ERROR - [ERR-0001] - [89b28d5b] Error processing ticker FBU.AX | Exception: TypeError: expected string or bytes-like object, got 'NoneType' | From: batch_run.py:process_ticker()
+2025-11-14 15:09:36,218 - INFO - [INFO] - Updated ticker BWP.AX fail_count: 1 -> 2
+2025-11-14 15:09:36,328 - INFO - [INFO] - Updated ticker FBU.AX fail_count: 0 -> 1
+2025-11-14 15:09:36,689 - INFO - [INFO] - Processing 4 pipelines...
+2025-11-14 15:09:37,546 - INFO - [INFO] - Number of pending ticker to process: 307
+2025-11-14 15:09:38,218 - INFO - [INFO] - Number of pending ticker to process: 307
+2025-11-14 15:09:38,219 - INFO - [INFO] - Skipping trending analysis - insights pending generation
+2025-11-14 15:09:38,719 - INFO - [INFO] - Number of pending ticker to process: 307
+2025-11-14 15:09:38,719 - INFO - [INFO] - Skipping trending analysis - insights pending generation
+2025-11-14 15:09:39,220 - INFO - [INFO] - Number of pending ticker to process: 307
+2025-11-14 15:09:39,220 - INFO - [INFO] - Skipping trending analysis - insights pending generation
+2025-11-14 15:09:39,798 - INFO - [INFO] - Batch cycle completed. Processed: 10 tickers, 0 pipelines. Remaining: 307 tickers, 4 pipelines
+2025-11-14 15:09:39,897 - INFO - [INFO] - Memory before cleanup: 6423.9 KB
+2025-11-14 15:13:36,794 - INFO - [INFO] - Starting continuous batch processing...
+2025-11-14 15:13:39,652 - INFO - [INFO] - Processing 10 tickers
+2025-11-14 15:13:44,191 - ERROR - [ERR-0203] - [4efbef82] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:13:44,191 - ERROR - [ERR-0203] - [8a323613] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:13:44,227 - ERROR - [ERR-0203] - [ce24fe19] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:13:44,233 - ERROR - [ERR-0203] - [4dd166b8] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:13:44,294 - ERROR - [ERR-0203] - [419ca8a0] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:13:44,336 - ERROR - [ERR-0203] - [d29c003e] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:13:44,354 - ERROR - [ERR-0203] - [f22e6cc7] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:13:44,432 - ERROR - [ERR-0203] - [6fb55cd1] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:13:44,432 - ERROR - [ERR-0203] - [22ff95e7] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:13:44,465 - ERROR - [ERR-0203] - [00c91436] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:14:29,047 - ERROR - [ERR-0001] - [a6882a59] Failed to parse AI response: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}} | Exception: JSONDecodeError: Expecting value: line 1 column 1 (char 0) | From: analysis.py:run_analysis()
+2025-11-14 15:14:51,338 - WARNING - [ERR-0001] - [bf88d3e5] Attempting to extract JSON from text (length: 155 chars) | From: helpers.py:extract_json_from_text()
+2025-11-14 15:14:51,339 - ERROR - [ERR-0001] - [142a8cf2] Failed to extract any valid JSON from text | From: helpers.py:extract_json_from_text()
+2025-11-14 15:14:51,339 - ERROR - [ERR-0001] - [232755b2] Text preview: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}... | From: helpers.py:extract_json_from_text()
+2025-11-14 15:14:51,340 - WARNING - [ERR-0001] - [7ad147e6] Attempting to extract JSON from text (length: 155 chars) | From: helpers.py:extract_json_from_text()
+2025-11-14 15:14:51,340 - ERROR - [ERR-0001] - [6d40418f] Failed to extract any valid JSON from text | From: helpers.py:extract_json_from_text()
+2025-11-14 15:14:51,340 - ERROR - [ERR-0001] - [e85c5c09] Text preview: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}... | From: helpers.py:extract_json_from_text()
+2025-11-14 15:14:51,340 - ERROR - [ERR-0001] - [eb91d0cd] Failed to extract valid JSON from AI response | From: holistic.py:run_holistic_market_model()
+2025-11-14 15:14:51,340 - WARNING - [WARN-0002] - [570e0ecc] Raw response content: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}... | From: holistic.py:run_holistic_market_model()
+2025-11-14 15:17:04,272 - WARNING - [ERR-0001] - [67ff6ccb] Attempting to extract JSON from text (length: 35863 chars) | From: helpers.py:extract_json_from_text()
+2025-11-14 15:17:04,276 - WARNING - [ERR-0001] - [9e0d8dda] Successfully extracted JSON using end object pattern | From: helpers.py:extract_json_from_text()
+2025-11-14 15:17:04,277 - INFO - [INFO] - Successfully parsed AI response as JSON
+2025-11-14 15:17:33,089 - INFO - [INFO] - Time step t=1 starting
+2025-11-14 15:17:33,092 - INFO - [INFO] - Market state - Net Order: -138, Sentiment: -0.5394, Price Change: -68.9271, New Price: 31.0729
+2025-11-14 15:17:34,459 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['MMS.AX']
+2025-11-14 15:22:33,181 - WARNING - [ERR-0001] - [5d637a36] Empty or non-string text provided to extract_json_from_text | From: helpers.py:extract_json_from_text()
+2025-11-14 15:22:33,182 - ERROR - [ERR-0001] - [9820a7c3] Failed to extract valid JSON from AI response | From: holistic.py:run_holistic_market_model()
+2025-11-14 15:22:33,183 - ERROR - [ERR-0404] - [4bade4a6] Error in holistic_market_model | Exception: TypeError: 'NoneType' object is not subscriptable | From: holistic.py:run_holistic_market_model()
+2025-11-14 15:30:08,654 - WARNING - [ERR-0001] - [c5095b20] Attempting to extract JSON from text (length: 155 chars) | From: helpers.py:extract_json_from_text()
+2025-11-14 15:30:08,655 - ERROR - [ERR-0001] - [b499ca71] Failed to extract any valid JSON from text | From: helpers.py:extract_json_from_text()
+2025-11-14 15:30:08,655 - ERROR - [ERR-0001] - [806b13f9] Text preview: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}... | From: helpers.py:extract_json_from_text()
+2025-11-14 15:30:08,655 - WARNING - [ERR-0001] - [4dd07a23] Attempting to extract JSON from text (length: 155 chars) | From: helpers.py:extract_json_from_text()
+2025-11-14 15:30:08,655 - ERROR - [ERR-0001] - [e310e782] Failed to extract any valid JSON from text | From: helpers.py:extract_json_from_text()
+2025-11-14 15:30:08,655 - ERROR - [ERR-0001] - [a1217418] Text preview: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}... | From: helpers.py:extract_json_from_text()
+2025-11-14 15:30:08,656 - ERROR - [ERR-0001] - [223751b8] Failed to extract valid JSON from AI response | From: holistic.py:run_holistic_market_model()
+2025-11-14 15:30:08,656 - WARNING - [WARN-0002] - [a6607f6c] Raw response content: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}... | From: holistic.py:run_holistic_market_model()
+2025-11-14 15:37:20,919 - WARNING - [ERR-0001] - [42e400bf] Attempting to extract JSON from text (length: 54005 chars) | From: helpers.py:extract_json_from_text()
+2025-11-14 15:37:20,921 - WARNING - [ERR-0001] - [73ccca01] Successfully extracted JSON using end object pattern | From: helpers.py:extract_json_from_text()
+2025-11-14 15:37:20,922 - INFO - [INFO] - Successfully parsed AI response as JSON
+2025-11-14 15:37:31,382 - WARNING - [ERR-0001] - [3571351a] Attempting to extract JSON from text (length: 155 chars) | From: helpers.py:extract_json_from_text()
+2025-11-14 15:37:31,385 - ERROR - [ERR-0001] - [85b4e424] Failed to extract any valid JSON from text | From: helpers.py:extract_json_from_text()
+2025-11-14 15:37:31,385 - ERROR - [ERR-0001] - [9e5fcd0f] Text preview: Error generating content: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}... | From: helpers.py:extract_json_from_text()
+2025-11-14 15:37:31,386 - ERROR - [ERR-0103] - [44405ac7] JSON parsing failed (attempt 1/5) | Exception: JSONDecodeError: Expecting value: line 1 column 1 (char 0) | From: helpers.py:get_factors()
+2025-11-14 15:38:26,139 - INFO - [INFO] - Time step t=1 starting
+2025-11-14 15:38:26,142 - INFO - [INFO] - Market state - Net Order: -44, Sentiment: -0.2, Price Change: -21.9466, New Price: 78.0534
+2025-11-14 15:38:27,719 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['BHP.AX']
+2025-11-14 15:42:35,505 - INFO - [INFO] - Starting continuous batch processing...
+2025-11-14 15:42:35,838 - INFO - [INFO] - Processing 10 tickers
+2025-11-14 15:42:41,137 - ERROR - [ERR-0203] - [6b771a36] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted: secret: ALPHAGORA_SECRET | content: EQ_EQUITY_LONG_SHORT_PROMPT | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:42:41,182 - ERROR - [ERR-0203] - [4e412686] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted: secret: ALPHAGORA_SECRET | content: EQ_EQUITY_LONG_SHORT_PROMPT | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:42:41,227 - ERROR - [ERR-0203] - [0eca48d1] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted: secret: ALPHAGORA_SECRET | content: EQ_EQUITY_LONG_SHORT_PROMPT | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:42:41,259 - ERROR - [ERR-0203] - [ea7bea7b] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted: secret: ALPHAGORA_SECRET | content: EQ_EQUITY_LONG_SHORT_PROMPT | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:42:41,409 - ERROR - [ERR-0203] - [1c46cd3a] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted: secret: ALPHAGORA_SECRET | content: EQ_EQUITY_LONG_SHORT_PROMPT | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:42:41,428 - ERROR - [ERR-0203] - [78d4fd39] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted: secret: ALPHAGORA_SECRET | content: EQ_EQUITY_LONG_SHORT_PROMPT | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:42:41,503 - ERROR - [ERR-0203] - [6b4e1655] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted: secret: ALPHAGORA_SECRET | content: EQ_EQUITY_LONG_SHORT_PROMPT | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:42:41,504 - ERROR - [ERR-0203] - [51b592ee] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted: secret: ALPHAGORA_SECRET | content: EQ_EQUITY_LONG_SHORT_PROMPT | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:42:41,541 - ERROR - [ERR-0203] - [89dd1c05] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted: secret: ALPHAGORA_SECRET | content: EQ_EQUITY_LONG_SHORT_PROMPT | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:42:41,582 - ERROR - [ERR-0203] - [096aca90] Invalid decryption: ENCRYPTION_SECRET is incorrect or the encrypted text is corrupted: secret: ALPHAGORA_SECRET | content: EQ_EQUITY_LONG_SHORT_PROMPT | Exception: InvalidToken:  | From: crypt.py:decrypt_string()
+2025-11-14 15:46:49,791 - INFO - [INFO] - MongoDB connection closed
