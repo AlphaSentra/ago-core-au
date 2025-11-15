@@ -67,7 +67,5 @@ def create_ticker_document(ticker, ticker_tradingview, name, asset_class=None, r
         return None
     except Exception as e:
         log_error(
-            f"Error creating ticker {ticker} | {document} | {type(e).__name__}: {str(e)}",
-            extra_data={"document": document}
-        )
+            f"Error creating ticker {ticker} | {document} | {type(e).__name__}: {str(e)}")
         return None
