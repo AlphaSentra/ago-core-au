@@ -66,5 +66,8 @@ def create_ticker_document(ticker, ticker_tradingview, name, asset_class=None, r
         log_error(f"Duplicate ticker: {ticker}", "TICKER_CREATION")
         return None
     except Exception as e:
-        log_error(f"Error creating ticker {ticker}", "TICKER_CREATION", e)
+        log_error(
+            f"Error creating ticker {ticker} | {document} | {type(e).__name__}: {str(e)}",
+            extra_data={"document": document}
+        )
         return None

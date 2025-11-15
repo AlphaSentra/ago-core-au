@@ -8,7 +8,7 @@ Tickers must be in Yahoo Finance format. (in the future, we can add other source
 LANGUAGE='en'
 
 # Market
-MARKET = "US"
+MARKET = "Australia"
 
 # Batch processing configuration
 # Number of tickers to process in each batch (tested and validated at 5 to avoid rate limits)
