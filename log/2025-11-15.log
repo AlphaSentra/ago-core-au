@@ -160,3 +160,180 @@
 2025-11-15 15:24:11,104 - ERROR - [ERR-0404] - [5fa6eb6b] Error in fx_long_short | Exception: TypeError: list indices must be integers or slices, not str | From: fx_long_short.py:run_fx_model()
 2025-11-15 15:24:11,761 - ERROR - [ERR-0404] - [b8d8d314] Error in fx_long_short | Exception: TypeError: list indices must be integers or slices, not str | From: fx_long_short.py:run_fx_model()
 2025-11-15 15:24:15,101 - ERROR - [ERR-0404] - [136c1b4c] Error in fx_long_short | Exception: TypeError: list indices must be integers or slices, not str | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:28:25,522 - INFO - [INFO] - Starting continuous batch processing...
+2025-11-15 15:28:28,955 - INFO - [INFO] - Processing 8 tickers
+2025-11-15 15:28:48,658 - ERROR - [ERR-0404] - [25c7cd32] Error in fx_long_short | Exception: TypeError: list indices must be integers or slices, not str | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:28:53,034 - ERROR - [ERR-0404] - [c4d29753] Error in fx_long_short | Exception: TypeError: list indices must be integers or slices, not str | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:28:54,191 - ERROR - [ERR-0404] - [7cea9cc6] Error in fx_long_short | Exception: TypeError: list indices must be integers or slices, not str | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:28:56,445 - ERROR - [ERR-0404] - [36892bb4] Error in fx_long_short | Exception: TypeError: list indices must be integers or slices, not str | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:28:58,835 - ERROR - [ERR-0404] - [850d0ee5] Error in fx_long_short | Exception: TypeError: list indices must be integers or slices, not str | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:29:01,627 - ERROR - [ERR-0404] - [fcd606ea] Error in fx_long_short | Exception: TypeError: list indices must be integers or slices, not str | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:29:01,798 - ERROR - [ERR-0404] - [a371e687] Error in fx_long_short | Exception: TypeError: list indices must be integers or slices, not str | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:29:03,315 - ERROR - [ERR-0404] - [27997ae1] Error in fx_long_short | Exception: TypeError: list indices must be integers or slices, not str | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:29:03,660 - INFO - [INFO] - Processing 1 pipelines...
+2025-11-15 15:29:04,343 - INFO - [INFO] - Number of pending ticker to process: 8
+2025-11-15 15:29:04,343 - INFO - [INFO] - Skipping trending analysis - insights pending generation
+2025-11-15 15:29:05,059 - INFO - [INFO] - Batch cycle completed. Processed: 8 tickers, 0 pipelines. Remaining: 8 tickers, 1 pipelines
+2025-11-15 15:29:05,150 - INFO - [INFO] - Memory before cleanup: 6393.2 KB
+2025-11-15 15:34:33,053 - INFO - [INFO] - Starting continuous batch processing...
+2025-11-15 15:34:36,138 - INFO - [INFO] - Processing 1 pipelines...
+2025-11-15 15:34:36,643 - INFO - [INFO] - Number of pending ticker to process: 0
+2025-11-15 15:35:07,814 - INFO - [INFO] - Batch cycle completed. Processed: 0 tickers, 0 pipelines. Remaining: 10 tickers, 1 pipelines
+2025-11-15 15:36:09,332 - INFO - [INFO] - Processing 10 tickers
+2025-11-15 15:36:24,053 - WARNING - [ERR-0001] - [09cbb605] Attempting to extract JSON from text (length: 168 chars) | From: helpers.py:extract_json_from_text()
+2025-11-15 15:36:24,054 - ERROR - [ERR-0001] - [1aa1ba36] Failed to extract any valid JSON from text | From: helpers.py:extract_json_from_text()
+2025-11-15 15:36:24,054 - ERROR - [ERR-0001] - [76389ea9] Text preview: Error generating content: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}... | From: helpers.py:extract_json_from_text()
+2025-11-15 15:36:24,055 - ERROR - [ERR-0103] - [14ee69ed] Error parsing AI response as JSON | Exception: JSONDecodeError: Expecting value: line 1 column 1 (char 0) | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:36:24,055 - WARNING - [WARN-0002] - [0b079b22] Raw response content: Error generating content: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}... | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:36:24,504 - WARNING - [ERR-0001] - [d888e28f] Attempting to extract JSON from text (length: 168 chars) | From: helpers.py:extract_json_from_text()
+2025-11-15 15:36:24,505 - ERROR - [ERR-0001] - [265ef99b] Failed to extract any valid JSON from text | From: helpers.py:extract_json_from_text()
+2025-11-15 15:36:24,505 - ERROR - [ERR-0001] - [dfaeface] Text preview: Error generating content: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}... | From: helpers.py:extract_json_from_text()
+2025-11-15 15:36:24,505 - ERROR - [ERR-0103] - [0049b8a4] Error parsing AI response as JSON | Exception: JSONDecodeError: Expecting value: line 1 column 1 (char 0) | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:36:24,505 - WARNING - [WARN-0002] - [fb16c82e] Raw response content: Error generating content: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}... | From: fx_long_short.py:run_fx_model()
+2025-11-15 15:37:41,601 - INFO - [INFO] - Time step t=1 starting
+2025-11-15 15:37:41,605 - INFO - [INFO] - Market state - Net Order: -152, Sentiment: -0.6583, Price Change: -75.9446, New Price: 24.0554
+2025-11-15 15:37:42,903 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['NZDUSD=X']
+2025-11-15 15:37:53,641 - INFO - [INFO] - Time step t=1 starting
+2025-11-15 15:37:53,642 - INFO - [INFO] - Market state - Net Order: -144, Sentiment: -0.5484, Price Change: -72.0063, New Price: 27.9937
+2025-11-15 15:37:55,033 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['GBPUSD=X']
+2025-11-15 15:37:56,770 - INFO - [INFO] - Time step t=1 starting
+2025-11-15 15:37:56,770 - INFO - [INFO] - Market state - Net Order: -256, Sentiment: -0.7688, Price Change: -128.2533, New Price: -28.2533
+2025-11-15 15:37:59,680 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['USDCAD=X']
+2025-11-15 15:38:05,801 - INFO - [INFO] - Time step t=1 starting
+2025-11-15 15:38:05,802 - INFO - [INFO] - Market state - Net Order: -209, Sentiment: -0.5604, Price Change: -104.4584, New Price: -4.4584
+2025-11-15 15:38:09,164 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['EURGBP=X']
+2025-11-15 15:38:14,875 - INFO - [INFO] - Time step t=1 starting
+2025-11-15 15:38:14,877 - INFO - [INFO] - Market state - Net Order: 222, Sentiment: 0.5866, Price Change: 111.0193, New Price: 211.0193
+2025-11-15 15:38:16,174 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['EURJPY=X']
+2025-11-15 15:38:17,730 - ERROR - [ERR-0103] - [5f575b30] JSON parsing failed (attempt 1/5) | Exception: JSONDecodeError: Expecting property name enclosed in double quotes: line 10 column 5 (char 384) | From: helpers.py:get_factors()
+2025-11-15 15:38:52,655 - INFO - [INFO] - Time step t=1 starting
+2025-11-15 15:38:52,657 - INFO - [INFO] - Market state - Net Order: 239, Sentiment: 0.6397, Price Change: 119.428, New Price: 219.428
+2025-11-15 15:38:54,425 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['AUDUSD=X']
+2025-11-15 15:39:11,333 - INFO - [INFO] - Time step t=1 starting
+2025-11-15 15:39:11,335 - INFO - [INFO] - Market state - Net Order: -48, Sentiment: -0.1355, Price Change: -23.814, New Price: 76.186
+2025-11-15 15:39:12,690 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['JPY=X']
+2025-11-15 15:39:22,612 - INFO - [INFO] - Time step t=1 starting
+2025-11-15 15:39:22,614 - INFO - [INFO] - Market state - Net Order: -72, Sentiment: -0.25, Price Change: -35.9774, New Price: 64.0226
+2025-11-15 15:39:23,912 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['EURUSD=X']
+2025-11-15 15:39:24,287 - INFO - [INFO] - Processing 1 pipelines...
+2025-11-15 15:39:24,783 - INFO - [INFO] - Number of pending ticker to process: 2
+2025-11-15 15:39:24,784 - INFO - [INFO] - Skipping trending analysis - insights pending generation
+2025-11-15 15:39:25,370 - INFO - [INFO] - Batch cycle completed. Processed: 10 tickers, 0 pipelines. Remaining: 2 tickers, 1 pipelines
+2025-11-15 15:39:25,491 - INFO - [INFO] - Memory before cleanup: 7341.5 KB
+2025-11-15 17:20:40,862 - INFO - [INFO] - Starting continuous batch processing...
+2025-11-15 17:20:44,024 - INFO - [INFO] - Processing 2 tickers
+2025-11-15 17:22:29,205 - INFO - [INFO] - Starting continuous batch processing...
+2025-11-15 17:22:32,413 - INFO - [INFO] - Processing 2 tickers
+2025-11-15 17:23:53,354 - INFO - [INFO] - Starting continuous batch processing...
+2025-11-15 17:23:57,137 - INFO - [INFO] - Batch cycle completed. Processed: 0 tickers, 0 pipelines. Remaining: 0 tickers, 0 pipelines
+2025-11-15 17:23:57,138 - INFO - [INFO] - All tickers and pipelines processed successfully!
+2025-11-15 17:23:57,213 - INFO - [INFO] - 
+[Top 10 memory allocations]
+<frozen importlib._bootstrap_external>:514: size=5399 KiB, count=13301, average=416 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/linecache.py:189: size=435 KiB, count=4582, average=97 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/enum.py:261: size=63.8 KiB, count=380, average=172 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/enum.py:549: size=51.0 KiB, count=143, average=365 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/dataclasses.py:506: size=25.0 KiB, count=266, average=96 B
+<frozen importlib._bootstrap_external>:133: size=22.7 KiB, count=145, average=160 B
+<frozen abc>:106: size=19.7 KiB, count=73, average=276 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/threading.py:307: size=19.3 KiB, count=52, average=380 B
+/Users/daivieth/Documents/_G8I/Development/ago-core-au/.venv/lib/python3.14/site-packages/dns/_immutable_ctx.py:58: size=17.3 KiB, count=90, average=197 B
+/Users/daivieth/Documents/_G8I/Development/ago-core-au/.venv/lib/python3.14/site-packages/pymongo/synchronous/pool.py:312: size=14.8 KiB, count=10, average=1520 B
+2025-11-15 17:23:57,261 - INFO - [INFO] - 
+[Top 10 memory allocations]
+<frozen importlib._bootstrap_external>:514: size=5399 KiB, count=13301, average=416 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/linecache.py:189: size=435 KiB, count=4582, average=97 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:67: size=140 KiB, count=1998, average=72 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:505: size=114 KiB, count=2091, average=56 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:193: size=114 KiB, count=2091, average=56 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:498: size=98.0 KiB, count=2091, average=48 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/enum.py:261: size=63.8 KiB, count=380, average=172 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/enum.py:549: size=51.0 KiB, count=143, average=365 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:502: size=32.1 KiB, count=1026, average=32 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/dataclasses.py:506: size=25.0 KiB, count=266, average=96 B
+2025-11-15 17:24:03,406 - INFO - [INFO] - Starting continuous batch processing...
+2025-11-15 17:24:06,874 - INFO - [INFO] - Batch cycle completed. Processed: 0 tickers, 0 pipelines. Remaining: 0 tickers, 0 pipelines
+2025-11-15 17:24:06,875 - INFO - [INFO] - All tickers and pipelines processed successfully!
+2025-11-15 17:24:06,948 - INFO - [INFO] - 
+[Top 10 memory allocations]
+<frozen importlib._bootstrap_external>:514: size=5399 KiB, count=13301, average=416 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/linecache.py:189: size=435 KiB, count=4582, average=97 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/enum.py:261: size=63.8 KiB, count=380, average=172 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/enum.py:549: size=51.0 KiB, count=143, average=365 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/dataclasses.py:506: size=24.7 KiB, count=261, average=97 B
+<frozen importlib._bootstrap_external>:133: size=22.7 KiB, count=145, average=160 B
+<frozen abc>:106: size=19.7 KiB, count=73, average=276 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/threading.py:307: size=19.3 KiB, count=52, average=380 B
+/Users/daivieth/Documents/_G8I/Development/ago-core-au/.venv/lib/python3.14/site-packages/dns/_immutable_ctx.py:58: size=17.3 KiB, count=90, average=197 B
+/Users/daivieth/Documents/_G8I/Development/ago-core-au/.venv/lib/python3.14/site-packages/pymongo/synchronous/pool.py:312: size=14.8 KiB, count=10, average=1520 B
+2025-11-15 17:24:06,997 - INFO - [INFO] - 
+[Top 10 memory allocations]
+<frozen importlib._bootstrap_external>:514: size=5399 KiB, count=13301, average=416 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/linecache.py:189: size=435 KiB, count=4582, average=97 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:67: size=140 KiB, count=1997, average=72 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:505: size=114 KiB, count=2084, average=56 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:193: size=114 KiB, count=2084, average=56 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:498: size=97.7 KiB, count=2084, average=48 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/enum.py:261: size=63.8 KiB, count=380, average=172 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/enum.py:549: size=51.0 KiB, count=143, average=365 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:502: size=32.1 KiB, count=1026, average=32 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/dataclasses.py:506: size=24.7 KiB, count=261, average=97 B
+2025-11-15 17:58:52,330 - INFO - [INFO] - Starting continuous batch processing...
+2025-11-15 17:58:55,460 - INFO - [INFO] - Processing 1 pipelines...
+2025-11-15 17:58:55,954 - INFO - [INFO] - Number of pending ticker to process: 0
+2025-11-15 17:59:15,489 - INFO - [INFO] - All trending tickers exist - updating pipeline metrics
+2025-11-15 17:59:16,289 - INFO - [INFO] - Updated pipeline run count for run_trending_analysis_equity
+2025-11-15 17:59:49,738 - INFO - [INFO] - Batch cycle completed. Processed: 0 tickers, 0 pipelines. Remaining: 0 tickers, 1 pipelines
+2025-11-15 18:00:50,233 - INFO - [INFO] - Processing 1 pipelines...
+2025-11-15 18:00:50,826 - INFO - [INFO] - Number of pending ticker to process: 0
+2025-11-15 18:01:10,077 - INFO - [INFO] - All trending tickers exist - updating pipeline metrics
+2025-11-15 18:01:10,883 - INFO - [INFO] - Updated pipeline run count for run_trending_analysis_equity
+2025-11-15 18:01:39,261 - INFO - [INFO] - Batch cycle completed. Processed: 0 tickers, 0 pipelines. Remaining: 0 tickers, 1 pipelines
+2025-11-15 18:02:39,772 - INFO - [INFO] - Processing 1 pipelines...
+2025-11-15 18:02:40,394 - INFO - [INFO] - Number of pending ticker to process: 0
+2025-11-15 18:03:26,430 - INFO - [INFO] - Batch cycle completed. Processed: 0 tickers, 0 pipelines. Remaining: 1 tickers, 1 pipelines
+2025-11-15 18:04:26,774 - INFO - [INFO] - Processing 1 tickers
+2025-11-15 18:06:24,966 - WARNING - [ERR-0001] - [378662b2] Attempting to extract JSON from text (length: 47609 chars) | From: helpers.py:extract_json_from_text()
+2025-11-15 18:06:24,969 - WARNING - [ERR-0001] - [944ec23b] Successfully extracted JSON using end object pattern | From: helpers.py:extract_json_from_text()
+2025-11-15 18:06:24,969 - INFO - [INFO] - Successfully parsed AI response as JSON
+2025-11-15 18:06:49,152 - ERROR - [ERR-0103] - [681bd5c9] JSON parsing failed (attempt 1/5) | Exception: JSONDecodeError: Expecting property name enclosed in double quotes: line 10 column 5 (char 429) | From: helpers.py:get_factors()
+2025-11-15 18:07:49,116 - INFO - [INFO] - Time step t=1 starting
+2025-11-15 18:07:49,121 - INFO - [INFO] - Market state - Net Order: -240, Sentiment: -0.6, Price Change: -119.9685, New Price: -19.9685
+2025-11-15 18:07:50,613 - INFO - [INFO] - Updated document_generated flag to True for tickers: ['COB.AX']
+2025-11-15 18:07:51,038 - INFO - [INFO] - Processing 1 pipelines...
+2025-11-15 18:07:52,304 - INFO - [INFO] - Number of pending ticker to process: 0
+2025-11-15 18:08:13,145 - INFO - [INFO] - All trending tickers exist - updating pipeline metrics
+2025-11-15 18:08:14,072 - INFO - [INFO] - Updated pipeline run count for run_trending_analysis_equity
+2025-11-15 18:08:45,191 - INFO - [INFO] - Batch cycle completed. Processed: 1 tickers, 0 pipelines. Remaining: 0 tickers, 1 pipelines
+2025-11-15 18:08:45,308 - INFO - [INFO] - Memory before cleanup: 7341.1 KB
+2025-11-15 18:10:47,266 - INFO - [INFO] - Memory after cleanup: 7796.0 KB (saved -465764.0 bytes)
+2025-11-15 18:10:47,864 - INFO - [INFO] - Processing 1 pipelines...
+2025-11-15 18:10:48,394 - INFO - [INFO] - Number of pending ticker to process: 0
+2025-11-15 18:11:02,976 - INFO - [INFO] - All trending tickers exist - updating pipeline metrics
+2025-11-15 18:11:03,997 - INFO - [INFO] - Updated pipeline run count for run_trending_analysis_equity
+2025-11-15 18:11:35,125 - INFO - [INFO] - Batch cycle completed. Processed: 0 tickers, 0 pipelines. Remaining: 0 tickers, 0 pipelines
+2025-11-15 18:11:35,127 - INFO - [INFO] - All tickers and pipelines processed successfully!
+2025-11-15 18:11:35,265 - INFO - [INFO] - 
+[Top 10 memory allocations]
+<frozen importlib._bootstrap_external>:514: size=6433 KiB, count=22568, average=292 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/linecache.py:189: size=435 KiB, count=4582, average=97 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:505: size=390 KiB, count=7138, average=56 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:193: size=390 KiB, count=7138, average=56 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:498: size=335 KiB, count=7138, average=48 B
+/Users/daivieth/Documents/_G8I/Development/ago-core-au/.venv/lib/python3.14/site-packages/cryptography/hazmat/bindings/openssl/binding.py:51: size=145 KiB, count=1181, average=126 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:502: size=114 KiB, count=3645, average=32 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/enum.py:261: size=66.5 KiB, count=396, average=172 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/enum.py:549: size=56.4 KiB, count=157, average=368 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:534: size=55.9 KiB, count=4, average=14.0 KiB
+2025-11-15 18:11:35,364 - INFO - [INFO] - 
+[Top 10 memory allocations]
+<frozen importlib._bootstrap_external>:514: size=6433 KiB, count=22568, average=292 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:505: size=587 KiB, count=10734, average=56 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:193: size=587 KiB, count=10734, average=56 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:498: size=503 KiB, count=10734, average=48 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/linecache.py:189: size=435 KiB, count=4582, average=97 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:502: size=171 KiB, count=5474, average=32 B
+/Users/daivieth/Documents/_G8I/Development/ago-core-au/.venv/lib/python3.14/site-packages/cryptography/hazmat/bindings/openssl/binding.py:51: size=145 KiB, count=1181, average=126 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:67: size=140 KiB, count=1998, average=72 B
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tracemalloc.py:534: size=84.0 KiB, count=6, average=14.0 KiB
+/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/enum.py:261: size=66.5 KiB, count=396, average=172 B
