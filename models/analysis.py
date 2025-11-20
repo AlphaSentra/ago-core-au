@@ -34,9 +34,9 @@ def run_analysis(ticker, instrument_name, batch_mode=False):
         tickers_str=ticker,
         instrument_name=instrument_name
     )
-
-    gemini_model = os.getenv("GEMINI_DEFAULT", "gemini-2.5-pro")
     
+    gemini_model = os.getenv("GEMINI_FLASH_LITE_MODEL", "gemini-2.5-flash-lite")
+
     # Get AI response
     response_text = get_gen_ai_response(
         tickers=[ticker],
